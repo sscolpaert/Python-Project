@@ -1,4 +1,4 @@
-# valida o número do CPF com pontos e hífens
+# O script executará uma confirmação do que é um CPF, e o que não é.
 import re
 CPF = str(input('Entre com o número do CPF, com pontos e hífen: \n'))
 if re.search('\d{11}', CPF):
