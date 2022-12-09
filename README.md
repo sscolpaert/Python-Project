@@ -1,1 +1,1 @@
-Onde eu aprendo a mexer com Python
+Onde eu aprendo a mexer com Python pela faculdade
