@@ -1,4 +1,4 @@
-# Calcular Divisão entre 2 números
+# Calcular Divisão entre 2 números.
 try:
     numero1 = float(input('Entre com o primeiro número: '))
     numero2 = float(input('Entre com o segundo número: '))

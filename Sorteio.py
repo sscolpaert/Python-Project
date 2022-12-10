@@ -1,4 +1,4 @@
-# Criação de um Sistema de sorteio
+# Criação de um Sistema de sorteio.
 import random
 print("\n* * * Sorteando três números diferentes entre 1 e 50 * * *\n")
 input("Pressione Enter para gerar os números: ")

@@ -1,15 +1,15 @@
 # EXERCÍCIO:
 # Crie um script para calcular o desconto do INSS, de acordo com o salário informado pelo usuário, conforme a tabela de desconto abaixo:
 
-#Salário                           Desconto        
+# Salário                           Desconto        
 
-#Até R$ 1693,72                    8%      
+# Até R$ 1693,72                    8%      
 
-#De R$ 1693,73 a R$ 2822,90        9%      
+# De R$ 1693,73 a R$ 2822,90        9%      
 
-#De R$ 2822,91 a R$ 5645,80        11%    
+# De R$ 2822,91 a R$ 5645,80        11%    
 
-#Acima de R$ 5645,80               O desconto é de R$ 621,04.
+# Acima de R$ 5645,80               O desconto é de R$ 621,04.
 
 print("\n* * * MOSTRA O DESCONTO DO INSS! * * *\n")
 salario = float(input('Entre com o salário: '))

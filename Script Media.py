@@ -1,4 +1,4 @@
-#Cálculo da média simples de 3 notas
+#Cálculo da média simples de 3 notas.
 media = 0.0
 nota1 = float(input('Digite a primeira nota:: '))
 nota2 = float(input('Digite a segunda nota:: '))

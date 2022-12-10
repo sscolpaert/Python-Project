@@ -1,2 +1,2 @@
-# O inicio de tudo
+# O inicio de tudo.
 print("Alô pessoal","estou estudando Python!!")
