@@ -16,8 +16,8 @@ def touche():
     title("TARTARUGA TOUCHE!") # Coloca o título na janela.
     bgcolor("lightyellow") # Coloca a cor de fundo da janela em amarelo claro.
     pensize(4) # Define a espessura do traço.
-    color("blue") #Define a cor da tartaruga e do traço.
-    shape("turtle") #Define o formato da tartaruga
+    color("blue") # Define a cor da tartaruga e do traço.
+    shape("turtle") # Define o formato da tartaruga
     delay(50)
     quadrado(90, 200)
     triangulo(120, 150)
