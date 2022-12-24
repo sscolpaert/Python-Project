@@ -16,4 +16,11 @@ while True:
 
     while True:
         mensagem = conexao.recv(2048)
+        if not mensagem:
+            break
+        print('\nIP Cliente:', enderecoIP)
+        print('Mensagem Recebida: ', mensagem.decode(),' - ', datetime.now().strftime('%H:%M:%S'))
+
+    print('Conexão com o Cliente Finalizada...', enderecoIP, ' EM: ', datetime.now().strftime('%d/%m/%y - %H:%M:%S'))
+    conexao.close()
         
