@@ -1,19 +1,19 @@
 # criando um cliente para conexão com o servidor Python
 import socket
-
-host = '127.0.0.1' # mesmo local do servidor
-porta = 8800 # mesmo porta do servidor
-
+ 
+host = '127.0.0.1'  # mesmo local do servidor
+porta = 8800        # mesma porta do servidor
+ 
 soquete = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-envio = (host, porta)
+envio = (host,porta)
 soquete.connect(envio)
-
-print('Digite: S e pressione ENTER para encerrar...')
-print('Digite a Mensagem: ')
+ 
+print('Digite: S e pressione ENTER para encerrar...') 
+print('DIGITE A MENSAGEM: ')
 mensagem = input()
-
-while mensagem not in ('s', 'S')
+ 
+while mensagem not in ('s','S'):
     soquete.send(str(mensagem).encode())
-    mensagem = input
-
+    mensagem = input()
+ 
 soquete.close()
